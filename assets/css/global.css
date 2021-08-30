@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+
+/* 
+    TABLE OF CONTENTS
+    ========================================================================= */
+
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+article, aside, details, figcaption,
+figure, footer, header, hgroup, menu,
+nav, section {
+	display: block;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+	padding-left: 0px;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a:focus, a:active {
+	text-decoration: none;
+	outline: 0;
+}
+
+
+/* ===========   2. DOCUMENT STYLES
+   ========================================================================= */
+
+body {
+	font-family: 'Graphik', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-size: auto;
+	font-weight: 400;
+	background: #ffffff;
+	color: #626569;
+	
+}
+
+
+/* ================    3. TYPOGRAPHY 
+   ========================================================================= */
+
+p{
+	margin-bottom: 30px;
+	color: #626569;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+p, a, span {
+	line-height: 135%;
+	
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+
+strong {
+	font-weight: 700;
+}
+
+strong a:hover {
+	text-decoration: underline;
+}
+
+ul, ol {
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+ul li, ol li {
+	padding-bottom: 0;
+}
+
+ol, ul {
+	padding-left: 0
+}
+
+em {
+	font-style: normal;
+}
+hr {
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+
+ul, li {
+	list-style: none;
+}
+ 
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+	color: #e3e0e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: inherit;
+	line-height: 1.4;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Graphik', sans-serif;
+	
+}
+
+
+.h1, h1 {
+	font-size: 40px;
+}
+
+.h2, h2 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.h3, h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.h4, h4 {
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	line-height:22px
+}
+
+.h5, h5 {
+	font-weight:500;
+	font-size:16px;
+	margin-bottom: 15px;
+}
+
+.h6, h6 {
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 30px;    
+	letter-spacing: .25px;	
+}
+
+
+.banner_img{
+	display: block;
+	margin: 0 auto;
+	min-width: 100%;
+}
+
+
+
+.theme_btn{
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: all ease 0.3s;
+	cursor: pointer;
+	z-index: 5;
+	display: inline-block;
+	border: none;
+	text-transform: none;
+	background: #000000;
+}
+.theme_btn i{
+	margin-left: 40px;
+}
+
+.theme_btn.btn_color{
+	background:linear-gradient(to left, #FE2F02, #FE6502 );
+}
+
+.theme_btn.btn_white{	
+	background: #fff;
+	color: #000000;
+}
+
+
+
+
+
+.site_title{
+	position: relative;
+	display: inline-block;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 15px;
+	font-size: 32px;
+	line-height: 36px;
+	padding-bottom: 7px;
+}
+
+.site_title:before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    height: 1px;
+    background:linear-gradient(to left, #FE2F02, #FE6502 );
+    width: 60%;
+    -webkit-transition: ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -ms-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    transition: ease-in-out .4s;
+}
+.site_title:hover:before {
+    width: 100%;
+    -webkit-transition: ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -ms-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    transition: ease-in-out .4s;
+}
+
+.sub_title{
+	display: block;
+	text-align: right;
+	font-size: 20px;
+	color: #000000;
+	font-weight: 600;
+	margin-bottom: 50px;
+	margin-top: 15px;
+}
+
+
+/*=========  backgroung color  ============*/
+
+.no-bg{
+	background: none !important;
+}
+.pdd_150{padding: 150px 0px;}
+
+
+

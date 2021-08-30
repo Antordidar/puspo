@@ -1,0 +1,105 @@
+/*------------------Tab monitor: 1600px.
+ --------------------------------------*/
+@media only screen and (max-width: 1500px) {
+	
+.short_menu li a { font-size: 18px; padding: 15px 0px 12px 0px;}
+	
+}
+
+/*------------------Tab monitor: 1200px.
+ --------------------------------------*/
+@media only screen and (max-width: 1200px) {
+
+	
+	
+	
+}
+
+/*------------------Tab Layout: 991px.
+ -------------
+-------------------------*/
+@media only screen and (max-width: 991px) {	
+header.sub_header{display: none;}	
+header.top_header{top: 0px;}	
+header.top_header .theme_btn {margin-top: 20px;}	
+.short_menu{display: none;}	
+.about_us:before{width: 100%;}	
+.sponser_logo{margin-left: 0px;}	
+	
+	
+}
+
+
+
+/*------------------Mobile Layout all : 767px.
+ ---------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+.hero{padding: 0px;}	
+.hero .hero_content{margin-right: 0px;}
+	
+.about_us{margin-top: 50px;}
+.sub_title {text-align: left;}	
+.footer { margin-top: 0px; }	
+	
+.hero_content {padding-right: 50px;}	
+.accessible{padding: 250px 0px 70px 0px;}	
+.why_us{padding: 70px 0px 70px 0px;}
+	
+	
+	
+.safe_investors .container,.best_region .container {margin-top: 0;}	
+.why_us:before,
+.accessible:before,
+.footer:before {left: 0px; right: 0px;bottom: 0px;}	
+	
+	
+	
+}
+
+/*------------------Mobile Layout custom : 575px.
+ -------------------------------------------------*/
+
+@media only screen and (max-width:575px) {
+.hero_content { padding: 50px 20px;}
+.sponser_logo li{margin-bottom: 20px;}	
+	
+.why_us:before{display: none;}
+	
+.best_region_post_items {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 50px;
+}	
+	
+.best_region_post_items .best_region_post_img img{
+	display: block;	min-width: 100%;}
+.contact_ft_info {margin-top: 15px;}	
+	
+	
+	
+	
+	
+}
+
+/*------------------Mobile Layout custom : 480px.
+ -------------------------------------------------*/
+
+@media only screen and (max-width:480px) {
+	
+
+	
+
+}
+
+
+
+
+/*------------------Mobile Layout custom : 320px.
+ -------------------------------------------------*/
+
+@media only screen and (max-width:350px) {
+	
+	
+}
+
